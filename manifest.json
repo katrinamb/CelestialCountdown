@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Celestial Countdown",
+  "description": "A Chrome extension that allows you to input when a celestial event is so that you can be reminded to see it.",
+  "version": "1.0",
+  "browser_action": {
+      "default_icon": "star.png",
+      "default_popup": "popup.html"
+  },
+  "permissions": ["storage", "*://*/*"],
+  "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+  },
+  "options_page": "options.html",
+  "web_accessible_resources": ["old_town_road.mp3"]
+}
