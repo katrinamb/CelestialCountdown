@@ -13,5 +13,5 @@
       "persistent": false
   },
   "options_page": "options.html",
-  "web_accessible_resources": ["old_town_road.mp3"]
+  "web_accessible_resources": ["ding.mp3"]
 }

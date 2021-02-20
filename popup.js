@@ -47,7 +47,7 @@ async function updatePopUpContents(timerStartTime, timerEndTime) {
   } else {
     // reset timer to blank state
     let seconds = await getStorageData('timerSeconds');
-    document.getElementById('timerHeader').innerHTML = `Click the button to start your timer for ${formatTime(seconds * 1000)}!`;
+    document.getElementById('timerHeader').innerHTML = `Click the button to start your countdown for ${formatTime(seconds * 1000)}!`;
     clearInterval(timer);
   }
 }

@@ -12,7 +12,7 @@ const getStorageData = key =>
 
 // trigger audio and display alert when timer ends
 function timerEnded() {
-  const myAudio = new Audio(chrome.runtime.getURL('old_town_road.mp3'));
+  const myAudio = new Audio(chrome.runtime.getURL('ding.mp3'));
   myAudio.play();
   clearInterval(timer);
   chrome.tabs.executeScript({
