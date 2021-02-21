@@ -27,7 +27,7 @@ function hmsToSeconds(hours, minutes, seconds) {
 }
 
 function saveOptions() {
-  const inputName = document.getElementById('name').value;
+  const inputName = document.getElementById('event').value;
   const inputSeconds = document.getElementById('timerSeconds').value;
   const inputMinutes =  document.getElementById('timerMinutes').value;
   const inputHours =  document.getElementById('timerHours').value;
