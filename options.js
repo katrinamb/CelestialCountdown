@@ -41,7 +41,7 @@ function saveOptions() {
 
   // Save the value using the Chrome extension storage API.
   chrome.storage.sync.set({ timerSeconds: totalSeconds }, function () {
-    alert('Options saved!');
+    alert('Celestial event and countdown saved!');
   });
 }
 
