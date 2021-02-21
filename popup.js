@@ -32,7 +32,6 @@ function getTimeLeft(endTime) {
     return "Time to check on the celestial event!";
   }
   let message = formatTime(timeLeftUntilEnd);
-  //let event = eventName;
   return message + ' left!';
 }
 
